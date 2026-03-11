@@ -1,0 +1,26 @@
+name: Feature Request
+description: Suggest an idea or improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What would you like?
+      description: Describe the feature or improvement you'd like to see.
+      placeholder: It would be great if...
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: What's the use case?
+      description: What problem would this solve for you? What agent would you build with it?
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Have you found a workaround, or tried another approach?
+    validations:
+      required: false
