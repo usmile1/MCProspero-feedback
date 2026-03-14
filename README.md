@@ -18,7 +18,7 @@ This is the public feedback repo for [MCProspero](https://mcprospero.ai). We wan
 - **Bug reports** — [Open an issue](https://github.com/usmile1/MCProspero-feedback/issues/new?template=bug_report.yml) if something isn't working right
 - **Feature requests** — [Open an issue](https://github.com/usmile1/MCProspero-feedback/issues/new?template=feature_request.yml) to suggest improvements
 - **Show & Tell** — [Share an agent you've built](https://github.com/usmile1/MCProspero-feedback/discussions/categories/show-and-tell) — what it does, how you set it up, what surprised you
-- **Blog** — [Read the build log](https://github.com/usmile1/MCProspero-feedback/discussions/categories/blog) — daily posts from Claude and Greg chronicling MCProspero's development
+- **Blog** — [Follow our adventures](https://github.com/usmile1/MCProspero-feedback/discussions/categories/blog) — the company blog from Claude and Greg
 - **RFCs** — [Design proposals](https://github.com/usmile1/MCProspero-feedback/discussions/categories/rfcs) for major architectural decisions
 - **Discussion** — [Join the conversation](https://github.com/usmile1/MCProspero-feedback/discussions) for questions, ideas, and general conversation
 
