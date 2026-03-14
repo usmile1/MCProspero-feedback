@@ -362,18 +362,19 @@ We'd welcome convergence. In the meantime, this approach works today without wai
 ### Client Support Gaps
 
 7. [Claude Code Issue #13646: Tool list not refreshed on list_changed](https://github.com/anthropics/claude-code/issues/13646) — confirms even major clients have incomplete notification support
+8. [Claude Code Issue #4118: Capture MCP Tools Changed notifications](https://github.com/anthropics/claude-code/issues/4118) — request for `notifications/tools/list_changed` support; includes a [community implementation](https://github.com/anthropics/claude-code/issues/4118#issuecomment-3346193961) of server-side tool categorization as a workaround (solves tool *selection*, complementary to our tool *freshness* approach)
 
 ### Traditional API Versioning
 
-8. [APIs as infrastructure: future-proofing Stripe with versioning](https://stripe.com/blog/api-versioning) (Stripe Engineering, 2017) — account pinning, version transformation modules
-9. [Why Doesn't Stripe Automatically Upgrade API Versions?](https://brandur.org/api-upgrades) (Brandur Leach, 2017) — why REST's opacity makes automatic upgrades unsafe
+9. [APIs as infrastructure: future-proofing Stripe with versioning](https://stripe.com/blog/api-versioning) (Stripe Engineering, 2017) — account pinning, version transformation modules
+10. [Why Doesn't Stripe Automatically Upgrade API Versions?](https://brandur.org/api-upgrades) (Brandur Leach, 2017) — why REST's opacity makes automatic upgrades unsafe
 
 ### LLM Tool Versioning (The New Problem)
 
-10. [Don't believe everything you read: Understanding and Measuring MCP Behavior under Misleading Tool Descriptions](https://arxiv.org/abs/2602.03580) (arXiv, 2026) — first large-scale study: ~13% of 10,240 MCP servers have description-code inconsistency
-11. [Evolvable MCP: A Guide to MCP Tool Versioning](https://medium.com/@kumaran.isk/evolvable-mcp-a-guide-to-mcp-tool-versioning-ae9a612f7710) — names the three break types: schema breaks, logic drift, and language breaks
-12. [cchistory: Tracking Claude Code System Prompt and Tool Changes](https://cchistory.mariozechner.at/) ([blog post](https://mariozechner.at/posts/2025-08-03-cchistory/)) — empirical evidence that description changes alter LLM behavior
-13. [Function calling using LLMs](https://martinfowler.com/articles/function-call-LLM.html) (Martin Fowler, 2025) — architectural overview noting prompt non-determinism
+11. [Don't believe everything you read: Understanding and Measuring MCP Behavior under Misleading Tool Descriptions](https://arxiv.org/abs/2602.03580) (arXiv, 2026) — first large-scale study: ~13% of 10,240 MCP servers have description-code inconsistency
+12. [Evolvable MCP: A Guide to MCP Tool Versioning](https://medium.com/@kumaran.isk/evolvable-mcp-a-guide-to-mcp-tool-versioning-ae9a612f7710) — names the three break types: schema breaks, logic drift, and language breaks
+13. [cchistory: Tracking Claude Code System Prompt and Tool Changes](https://cchistory.mariozechner.at/) ([blog post](https://mariozechner.at/posts/2025-08-03-cchistory/)) — empirical evidence that description changes alter LLM behavior
+14. [Function calling using LLMs](https://martinfowler.com/articles/function-call-LLM.html) (Martin Fowler, 2025) — architectural overview noting prompt non-determinism
 
 ---
 
