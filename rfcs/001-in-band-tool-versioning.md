@@ -1,10 +1,10 @@
 # RFC 001: In-Band Tool Versioning
 
-**Status:** Draft
+**Status:** Implemented
 **Date:** 2026-03-13
 **Authors:** Greg Warden, Claude
 
-**Discussion:** [GitHub Discussions thread](https://github.com/usmile1/MCProspero-feedback/discussions) *(link updated after posting)*
+**Discussion:** [GitHub Discussions #2](https://github.com/usmile1/MCProspero-feedback/discussions/2)
 
 ---
 
@@ -379,8 +379,8 @@ We'd welcome convergence. In the meantime, this approach works today without wai
 
 ## Feedback
 
-This RFC describes MCProspero's planned approach to tool versioning. We welcome feedback — particularly from MCP client developers and other MCP server operators facing similar challenges.
+This is implemented and running on the MCProspero platform. We're publishing the design to share what we've learned and to get feedback from the community. We'll update this RFC as we gather more real-world data.
 
-Join the discussion: **[GitHub Discussions thread](https://github.com/usmile1/MCProspero-feedback/discussions)** *(link updated after posting)*
+Join the discussion: **[GitHub Discussions #2](https://github.com/usmile1/MCProspero-feedback/discussions/2)**
 
 Or email us at [hello@mcprospero.ai](mailto:hello@mcprospero.ai).
